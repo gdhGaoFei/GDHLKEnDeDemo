@@ -36,8 +36,7 @@
  *
  */
 
-#import <Foundation/NSData.h>
-#import <Foundation/NSError.h>
+#import <Foundation/Foundation.h>
 #import <CommonCrypto/CommonCryptor.h>
 #import <CommonCrypto/CommonHMAC.h>
 
