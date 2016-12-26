@@ -39,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A66F2DA11E109D0A00718407 /* GDHLKEnDeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDHLKEnDeHeader.h; sourceTree = "<group>"; };
 		A6EA82E71E0EC0F100FAE4B5 /* GDHLKEnDeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GDHLKEnDeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6EA82EB1E0EC0F100FAE4B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A6EA82ED1E0EC0F100FAE4B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -57,7 +58,6 @@
 		A6EA83111E0EC0F200FAE4B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6EA832C1E0EC1E000FAE4B5 /* GDHLKEnDe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDHLKEnDe.h; sourceTree = "<group>"; };
 		A6EA832D1E0EC1E000FAE4B5 /* GDHLKEnDe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDHLKEnDe.m; sourceTree = "<group>"; };
-		A6EA832E1E0EC1E000FAE4B5 /* GDHLKEnDeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDHLKEnDeHeader.h; sourceTree = "<group>"; };
 		A6EA832F1E0EC1E000FAE4B5 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
 		A6EA83301E0EC1E000FAE4B5 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
 		A6EA83311E0EC1E000FAE4B5 /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
@@ -157,9 +157,9 @@
 		A6EA832B1E0EC1E000FAE4B5 /* GDHLKEnDe */ = {
 			isa = PBXGroup;
 			children = (
+				A66F2DA11E109D0A00718407 /* GDHLKEnDeHeader.h */,
 				A6EA832C1E0EC1E000FAE4B5 /* GDHLKEnDe.h */,
 				A6EA832D1E0EC1E000FAE4B5 /* GDHLKEnDe.m */,
-				A6EA832E1E0EC1E000FAE4B5 /* GDHLKEnDeHeader.h */,
 				A6EA832F1E0EC1E000FAE4B5 /* NSData+Base64.h */,
 				A6EA83301E0EC1E000FAE4B5 /* NSData+Base64.m */,
 				A6EA83311E0EC1E000FAE4B5 /* NSData+CommonCrypto.h */,
@@ -552,6 +552,7 @@
 				A6EA83161E0EC0F200FAE4B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6EA83171E0EC0F200FAE4B5 /* Build configuration list for PBXNativeTarget "GDHLKEnDeDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -560,6 +561,7 @@
 				A6EA83191E0EC0F200FAE4B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6EA831A1E0EC0F200FAE4B5 /* Build configuration list for PBXNativeTarget "GDHLKEnDeDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -568,6 +570,7 @@
 				A6EA831C1E0EC0F200FAE4B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
